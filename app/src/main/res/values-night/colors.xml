@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white_splash_background">#FCFAF9</color>
+
+    <color name="black_border">#363030</color>
+    <color name="black_detail_background">#201D1D</color>
+    <color name="black_1000">#171515</color>
+    <color name="black_1500">#0B0A0A</color>
+    <color name="white_1000">#FCFAF9</color>
+    <color name="white_1500">#F1E8E4</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="purple_500">#FF6200EE</color>
+
+</resources>

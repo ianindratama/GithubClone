@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Github</string>
+    <string name="search_hint">Search Github User</string>
+
+    <string name="HomeFragmentTitle">Find Github People.</string>
+    <string name="HomeFragmentSubtitle">Search all Github User\nusing the Search Icon at the Top Menu</string>
+
+    <string name="NoDataTitleSearchFragment">No Data Found.</string>
+    <string name="NoDataSubtitleSearchFragment">Try searching other Github User\nusing the Search Icon at the Top Menu</string>
+
+    <string name="middle_dot"><b>·</b></string>
+    <string name="tab_text_2">Followers</string>
+    <string name="tab_text_1">Following</string>
+
+    <string name="my_name">Indratama Pangasian Manalu</string>
+    <string name="my_email">ian.indratama5@gmail.com</string>
+    <string name="references">References</string>
+
+    <string name="dicoding_fundamental_course">Dicoding Android\nFundamental Course</string>
+    <string name="dicoding_fundamental_course_reference1"><a href="https://www.dicoding.com/academies/14">Reference 1</a></string>
+
+    <string name="android_view_model">Android ViewModel\nadditional arguments</string>
+    <string name="android_view_model_reference1"><a href="https://stackoverflow.com/a/60130631/10437091">Reference 1</a></string>
+
+    <string name="change_android_searchview_text">Change Android\nSearchView text</string>
+    <string name="change_android_searchview_text_reference1"><a href="https://stackoverflow.com/a/55711699/10437091">Reference 1</a></string>
+
+    <string name="coordinator_layout">Coordinator Layout</string>
+    <string name="coordinator_layout_reference1"><a href="https://blog.mindorks.com/using-coordinator-layout-in-android">Reference 1</a></string>
+    <string name="coordinator_layout_reference2"><a href="https://stackoverflow.com/questions/30540632/coordinatorlayout-using-the-viewpagers-recyclerview">Reference 2</a></string>
+
+    <string name="hyperlink_textview">Hyperlink Textview</string>
+    <string name="hyperlink_textview_reference1"><a href="https://learntodroid.com/how-to-create-a-hyperlink-using-android-textview/">Reference 1</a></string>
+    <string name="hyperlink_textview_reference2"><a href="https://stackoverflow.com/questions/8448390/how-to-remove-underline-from-hyperlinks-text-in-android/23143849">Reference 2</a></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

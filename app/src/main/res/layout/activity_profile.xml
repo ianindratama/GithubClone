@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_1000"
+    tools:context=".util.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="25dp"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_photo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            style="@style/TextContent"
+            android:layout_marginTop="16dp"
+            android:text="@string/my_name"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"/>
+
+        <TextView
+            style="@style/TextContent"
+            android:layout_marginTop="16dp"
+            android:text="@string/my_email"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"/>
+
+        <TextView
+            style="@style/TextContent"
+            android:layout_marginTop="16dp"
+            android:text="@string/references"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/dicoding_fundamental_course" />
+
+                <TextView
+                    android:id="@+id/dicoding_fundamental_course_reference1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/dicoding_fundamental_course_reference1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/android_view_model" />
+
+                <TextView
+                    android:id="@+id/android_view_model_reference1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/android_view_model_reference1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/change_android_searchview_text" />
+
+                <TextView
+                    android:id="@+id/change_android_searchview_text_reference1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/change_android_searchview_text_reference1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/coordinator_layout" />
+
+                <TextView
+                    android:id="@+id/coordinator_layout_reference1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/coordinator_layout_reference1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/coordinator_layout_reference2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:layout_column="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/coordinator_layout_reference2" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/hyperlink_textview" />
+
+                <TextView
+                    android:id="@+id/hyperlink_textview_reference1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/hyperlink_textview_reference1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/hyperlink_textview_reference2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:layout_column="1"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:text="@string/hyperlink_textview_reference2" />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>
